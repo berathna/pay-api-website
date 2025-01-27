@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <default-header></default-header>
+    <div class="contact-container container">
+        <h2 class="h2-heading">Submit a help request and we’ll get in touch shortly.</h2>
+        <div class="contact-form-container flex">
+            <div class="contact-form">
+                <form>
+                    <div class="input-item">
+                        <input placeholder="Name" type="text">
+                    </div>
+                    <div class="input-item">
+                        <input placeholder="Email Address" type="email">
+                    </div>
+                    <div class="input-item">
+                        <input placeholder="Company Name (optional)" type="text">
+                    </div>
+                    <div class="input-item">
+                        <input placeholder="Title (optional)" type="text">
+                    </div>
+                    <div class="input-item">
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="check-box-container flex items-center">
+                        <input type="checkbox">
+                        <p>Stay up-to-date with company announcements and updates to our API</p>
+                    </div>
+                    <button class="pricing-plan-button pointer">Submit</button>
+                </form>
+            </div>
+            <div class="companies flex justify-center">
+                <h4>Join the thousands of innovators already building with us</h4>
+                    <div class="grid">
+                        <img src="./assets/shared/desktop/tesla_blue.svg" alt="tesla">
+                        <img src="./assets/shared/desktop/microsoft_blue.svg" alt="microsoft">
+                        <img src="./assets/shared/desktop/hewlett-packard_blue.svg" alt="hewlett-packard">
+                        <img src="./assets/shared/desktop/oracle_blue.svg" alt="oracle">
+                        <img src="./assets/shared/desktop/google_blue.svg" alt="google">
+                        <img src="./assets/shared/desktop/nvidia_blue.svg" alt="nvidia">
+                    </div>
+                
+            </div>
+        </div>
+        <div class="call-to-action flex">
+            <h2 class="h2-heading">Ready to start?</h2>
+            <default-form>
+                <form class="form">
+                    <div class="form-inputs-container flex">
+                        <input placeholder="Enter email address" type="email">
+                        <button class="demo-button">Schedule a Demo</button>
+                    </div>
+                </form>
+            </default-form>
+        </div>
+    </div>
+    <default-footer></default-footer>
+    <script type="module" src="templates.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
